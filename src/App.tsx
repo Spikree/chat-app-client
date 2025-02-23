@@ -5,7 +5,7 @@ import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import SettingsPage from "./pages/SettingsPage";
 import ProfilePage from "./pages/ProfilePage";
-import { useAuthStore } from "./store/useAuthStore.js";
+import { useAuthStore } from "./store/useAuthStore.ts";
 import { useEffect } from "react";
 import { Loader } from "lucide-react";
 import ProtectedRoutes from "./utils/protectedRoutes.js";

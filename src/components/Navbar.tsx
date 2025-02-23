@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useAuthStore } from "../store/useAuthStore.js";
+import { useAuthStore } from "../store/useAuthStore.ts";
 import { LogOut, MessageSquare, Settings, User } from "lucide-react";
 
 function Navbar() {
