@@ -164,7 +164,7 @@ const SignUpPage = () => {
             <p className="text-base-content/60">
               Already have an account?{" "}
               <Link to={"/login"} className="link text-primary">
-                Sign Up
+                login
               </Link>
             </p>
           </div>
