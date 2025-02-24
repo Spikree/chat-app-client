@@ -6,7 +6,8 @@ import { AxiosError } from 'axios';
 type authData = {
   email: string;
   password: string;
-  name?: string; 
+  name?: string;
+  profilePic?: string;
 }
 
 type authUser = {
