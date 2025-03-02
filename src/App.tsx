@@ -14,13 +14,14 @@ import { Toaster } from "react-hot-toast";
 import AuthRoutes from "./utils/AuthRoutes.js";
 
 const App = () => {
-  const { authUser, checkAuth, isCheckingAuth } = useAuthStore();
+  const { authUser, checkAuth, isCheckingAuth, onlineUsers } = useAuthStore();
   const { theme } = useThemeStore();
   useEffect(() => {
     checkAuth();
-  }, [checkAuth]);
+    console.log(onlineUsers)
+  }, []);
 
-  console.log(authUser);
+  
 
   if (isCheckingAuth) {
     return (

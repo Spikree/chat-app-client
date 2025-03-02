@@ -13,7 +13,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     getUsers();
-    console.log("Fetched users:", users);
+    
   }, [getUsers,]);
 
   // Ensure users is an array before filtering

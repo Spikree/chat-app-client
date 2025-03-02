@@ -14,7 +14,7 @@ const Chat = () => {
 
   useEffect(() => {
     if (selectedUser?._id) {
-      console.log("selected user: ", selectedUser);
+      
       getMessages(selectedUser._id);
     }
   }, [selectedUser?._id, getMessages]);
